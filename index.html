@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/metamask-icon.png" type="x-icon/image" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script defer src="./index.js" type="module"></script>
+    <title>FundMe - METAMASK</title>
+</head>
+<body>
+    <div id="backdrop"></div>
+    <div id="modal"></div>
+    <header>
+        <img src="./assets/metamask-icon.png" class="metamask-image" alt="metamask-logo" />
+        <div class="header-text">
+            FUNDME x METAMASK
+        </div>
+    </header>
+    <hr />
+    <div class="btn-container">
+        <button id="connect-btn" class="btn">Connect Wallet</button>
+        <button id="balance-btn" class="btn">Check Balance</button>
+    </div>
+    <div class="btn-container">
+        <input id="fund-amount" class="fund-input" type="number" step="0.01" min="0.01" placeholder="Amount"/>
+        <button id="fund-btn" class="btn">Fund</button>
+    </div>
+    <div class="btn-container">
+        <button id="withdraw-btn" class="btn">Withdraw</button>
+    </div>
+
+</body>
+</html>
